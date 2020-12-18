@@ -13,15 +13,7 @@ from tkinter.font import BOLD
 root = Tk()
 root.geometry('1000x500')
 
-foods = {'fish': 10000, # Toman
-         'rice': 8000,
-         'chips': 5000,
-         'steak':30000,
-         'meat': 25000,
-         'noodles': 15000,
-         'spagetti': 20000,
-         'sushi': 22000
-         }
+
 
 def openFile(filename):
     os.system('python '+filename)
